@@ -23,11 +23,7 @@ export default function Sidebar({ activeTab, setActiveTab }) {
               <button
                 key={item.id}
                 onClick={() => setActiveTab(item.id)}
-                className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all ${
-                  activeTab === item.id
-                    ? 'bg-sky-500 text-white shadow-lg'
-                    : 'text-slate-300 hover:bg-slate-700'
-                }`}
+                className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all ${activeTab === item.id ? 'bg-sky-500 text-white shadow-lg' : 'text-slate-300 hover:bg-slate-700'}`}
               >
                 <Icon size={20} />
                 <span className="font-medium">{item.label}</span>

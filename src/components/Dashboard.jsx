@@ -36,9 +36,7 @@ export default function Dashboard({ transactions }) {
         <p className="text-slate-600">Pantau kesehatan keuangan bisnis Anda</p>
       </div>
 
-      {/* Cards Ringkasan */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {/* Total Pendapatan */}
         <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-success">
           <div className="flex items-center justify-between">
             <div>
@@ -51,7 +49,6 @@ export default function Dashboard({ transactions }) {
           </div>
         </div>
 
-        {/* Total Pengeluaran */}
         <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-danger">
           <div className="flex items-center justify-between">
             <div>
@@ -64,7 +61,6 @@ export default function Dashboard({ transactions }) {
           </div>
         </div>
 
-        {/* Saldo */}
         <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-primary-600">
           <div className="flex items-center justify-between">
             <div>
@@ -79,7 +75,6 @@ export default function Dashboard({ transactions }) {
           </div>
         </div>
 
-        {/* Jumlah Transaksi */}
         <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-warning">
           <div className="flex items-center justify-between">
             <div>
@@ -93,7 +88,6 @@ export default function Dashboard({ transactions }) {
         </div>
       </div>
 
-      {/* Transaksi Terakhir */}
       <div className="bg-white rounded-xl shadow-md overflow-hidden">
         <div className="px-6 py-4 border-b border-slate-200">
           <h2 className="text-xl font-bold text-slate-900">Transaksi Terakhir</h2>
